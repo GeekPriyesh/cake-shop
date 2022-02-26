@@ -5,7 +5,17 @@
     padding-bottom: 30%;
 }
 
-.card-body .title{
-    color:crimson;
-    size: 500px;
+.container{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+label{
+    color: gold;
+    font-size:x-large;
+    text-align: left;
+}
+
+input{
+    color:silver;
 }

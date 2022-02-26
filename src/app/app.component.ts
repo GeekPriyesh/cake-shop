@@ -7,8 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cake-shop';
-
+  entity = new Entity();
   public onSubmit(){
-    
+
   }
+}
+class Entity{
+  name:string="";
+  cakeType:string="";
 }

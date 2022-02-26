@@ -7,8 +7,14 @@
       <h1 style="color:gold;">Order Cake of your choice</h1>
       <form (ngSubmit)="onSubmit()" #orderForm="ngForm">
         <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" class="form-control" id="name" required [(ngModel)]="entity.name" name="name" #name="ngModel">
+          <label>Name 
+            <input type="text" class="form-control" id="name" required [(ngModel)]="entity.name" #name="ngModel">
+          </label>        
+        </div>
+        <div class="form-group">
+          <label>Cake Type 
+            <input type="text" class="form-control" id="cake-type" required [(ngModel)]="entity.cakeType" #cakeType="ngModel">
+          </label> 
         </div>
       </form>
     </div>

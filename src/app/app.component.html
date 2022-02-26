@@ -1,16 +1,13 @@
 <div class="card">
-  <div class="card-header" style="text-align:center;font-weight: bold;">
+  <div class="card-header" style="text-align:center;font-weight:bold;">
     <h1>Creamy Creations</h1>
   </div>
   <div class="card-body" style="text-align:center;">
-    <div class="title">
-      <h2>Order cake of your choice</h2>
-    </div>
-    <div class="que">
-      <label>
-        Name 
-        <input type="text">
-      </label>
+    <div class="container">
+      <h1 style="color:gold;">Order Cake of your choice!</h1>
+      <form (ngSubmit)="onSubmit()" #orderForm="ngForm">
+        
+      </form>
     </div>
   </div>
 </div>

@@ -1,13 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-.card-body{
-    background-size:cover;
-    background-image: url('./assets/cake.jfif');
-    padding-top: 10%;
-}
 
-.card-body .title{
-    color:crimson;
-    size: 500px;
-}
     
 

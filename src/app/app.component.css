@@ -1,6 +1,7 @@
 .card-body{
     background-size:cover;
     background-image: url('/assets/cake.jfif');
+    background-blend-mode: soft-light;
     padding-top: 10%;
     padding-bottom: 30%;
 }
